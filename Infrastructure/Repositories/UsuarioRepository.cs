@@ -3,7 +3,7 @@ using APIUsuario.Domain.Entities;
 using APIUsuario.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 
-namespace APIUsuarios.Infrastructure.Repositories;
+namespace APIUsuario.Infrastructure.Repositories;
 
 public class UsuarioRepository : IUsuarioRepository
 {

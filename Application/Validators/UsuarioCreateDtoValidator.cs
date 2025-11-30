@@ -1,7 +1,7 @@
 using FluentValidation;
 using APIUsuario.Application.DTOs;
 
-namespace APIUsuarios.Application.Validators;
+namespace APIUsuario.Application.Validators;
 
 public class UsuarioCreateDtoValidator : AbstractValidator<UsuarioCreateDto>
 {

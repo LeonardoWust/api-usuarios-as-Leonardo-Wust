@@ -155,4 +155,9 @@ public class UsuarioService : IUsuarioService
     {
         throw new NotImplementedException();
     }
+
+    Task<object?> IUsuarioService.ObterAsync(int id, CancellationToken ct)
+    {
+        throw new NotImplementedException();
+    }
 }
