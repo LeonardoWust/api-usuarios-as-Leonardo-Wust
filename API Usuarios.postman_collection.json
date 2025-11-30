@@ -1,0 +1,115 @@
+{
+	"info": {
+		"_postman_id": "61943b32-662b-41a7-9bbb-6923b091946a",
+		"name": "API Usuarios",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "50455202",
+		"_collection_link": "https://wustleo17-2799503.postman.co/workspace/Leonardo-Gon%C3%A7alves-Wust's-Works~9b5ebae4-20ae-442c-8748-70cb5ad7a619/collection/50455202-61943b32-662b-41a7-9bbb-6923b091946a?action=share&source=collection_link&creator=50455202"
+	},
+	"item": [
+		{
+			"name": "Criar Usuario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nome\": \"João da Silva\",\r\n  \"email\": \"joao@teste.com\",\r\n  \"senha\": \"senha123\",\r\n  \"dataNascimento\": \"1990-01-01\",\r\n  \"telefone\": \"11999998888\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5214/usuarios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5214",
+					"path": [
+						"usuarios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Usuarios",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5214/usuarios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5214",
+					"path": [
+						"usuarios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obter por ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5214/usuarios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5214",
+					"path": [
+						"usuarios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Atualizar",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5214/usuarios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5214",
+					"path": [
+						"usuarios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Remover",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5214/usuarios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5214",
+					"path": [
+						"usuarios"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
