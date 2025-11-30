@@ -6,7 +6,7 @@ public interface IUsuarioService
 {
     Task<IEnumerable<UsuarioReadDto>> ListarAsync(CancellationToken ct);
     
-    // Atenção aqui: Tem o '?' e usa CancellationToken
+    
     Task<UsuarioReadDto?> ObterAsync(int id, CancellationToken ct);
 
     Task<UsuarioReadDto> CriarAsync(UsuarioCreateDto dto, CancellationToken ct);

@@ -27,7 +27,7 @@ public class UsuarioService : IUsuarioService
         return usuarios.Select(u => MapToReadDto(u));
     }
 
-    // Este método agora bate EXATAMENTE com a interface
+    
     public async Task<UsuarioReadDto?> ObterAsync(int id, CancellationToken ct)
     {
         var usuario = await _repository.GetByIdAsync(id, ct);
