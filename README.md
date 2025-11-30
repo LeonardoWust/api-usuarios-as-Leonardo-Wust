@@ -3,6 +3,12 @@
 ## Descrição
 Projeto desenvolvido como avaliação técnica para implementar uma API RESTful utilizando .NET 8. O sistema permite o gerenciamento de usuários (CRUD) com regras de negócio específicas, persistência em banco de dados e documentação de código.
 
+##  Vídeo de Apresentação (Entrega)
+Confira a demonstração completa do projeto, explicação do código e testes de endpoints clicando no link abaixo:
+
+### ▶ https://drive.google.com/file/d/14EV3v5WXQoHFqmvwimbAuu4DGpSYkp8g/view?usp=sharing
+
+
 ## Tecnologias Utilizadas
 - .NET 8.0: Framework principal.
 - ASP.NET Core Minimal APIs: Para construção dos endpoints.
