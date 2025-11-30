@@ -1,5 +1,5 @@
 // Domain/Entities/Usuario.cs
-namespace APIUsuarios.Domain.Entities;
+namespace APIUsuario.Domain.Entities;
 
 public class Usuario
 {
